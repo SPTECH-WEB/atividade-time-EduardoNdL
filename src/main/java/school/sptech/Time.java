@@ -58,9 +58,13 @@ public class Time {
     }
 
     public void exibirInformacoes(){
-        System.out.println("Time: " + nome);
-        System.out.println("Vitórias: " + vitorias);
-        System.out.println("Empates: " + empates);
-        System.out.println("Derrotas: " + derrotas);
+        System.out.println("Time: " + nome + "/n" +
+                "Vitórias: " + vitorias + "/n" +
+                "Empates: " + empates + "/n" +
+                "Derrotas: " + derrotas + "/n" + "/n" +
+                "Pontos: " + getPontos() + "/n" +
+                "Total de Partidas: " + getTotalPartidas() + "/n" +
+                "Aproveitamento: " + getAproveitamento() + "/n" +
+                "---------------");
     }
 }
